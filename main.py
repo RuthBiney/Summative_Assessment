@@ -7,7 +7,7 @@ from nltk.stem import WordNetLemmatizer # type: ignore
 from transformers import BertTokenizer, TFBertModel # type: ignore
 from tensorflow.keras.models import load_model # type: ignore
 import tensorflow as tf # type: ignore
-import streamlit as st
+import main as st
 from streamlit_chat import message # type: ignore
 
 # Download required NLTK data files
