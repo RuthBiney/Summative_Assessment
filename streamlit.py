@@ -1,14 +1,14 @@
-import nltk
-import numpy as np
+import nltk # type: ignore
+import numpy as np # type: ignore
 import json
 import pickle
 import random
-from nltk.stem import WordNetLemmatizer
-from transformers import BertTokenizer, TFBertModel
-from tensorflow.keras.models import load_model
-import tensorflow as tf
+from nltk.stem import WordNetLemmatizer # type: ignore
+from transformers import BertTokenizer, TFBertModel # type: ignore
+from tensorflow.keras.models import load_model # type: ignore
+import tensorflow as tf # type: ignore
 import streamlit as st
-from streamlit_chat import message
+from streamlit_chat import message # type: ignore
 
 # Download required NLTK data files
 nltk.download('punkt')
